@@ -12,7 +12,7 @@ const selectedCount = atom({
 
 const accMoney = atom({
     key: "accMoney",
-    default: 2500
+    default: 10000
 });
 
 export {selectedPrice, selectedCount, accMoney}

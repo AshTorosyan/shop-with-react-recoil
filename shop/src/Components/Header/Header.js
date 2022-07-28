@@ -21,6 +21,7 @@ const OnResetOrderingItems = () => {
     if(selectedCount) {
         reseting();
     }
+    
 }
 
 const onOrderHandleClick = () => {

@@ -18,10 +18,12 @@ const shopList = [
 const List = () => {
    const [updatedCount,setUpdatedCount] = useRecoilState(selectedCount);
    const [updatedPrice,setUpdatedPrice] = useRecoilState(selectedPrice);
+   
 
    const addItemsToHeader = (valuePrice) => {
       setUpdatedCount(updatedCount + 1)
       setUpdatedPrice(updatedPrice + valuePrice)
+      
    }
 
    return (
