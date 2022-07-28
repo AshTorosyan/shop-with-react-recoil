@@ -29,7 +29,7 @@ const List = () => {
           <ol className={classes['shop-list-container']}>
           {shopList.map((value) => {
               return (
-                 <Item className={classes['shoping-lis-item']} key={value.name}>
+                 <Item className={classes['shoping-list-item']} key={value.name}>
                     <span> product name:  {value.name} </span>
                     <br/>
                     <span> product price: {value.price}  </span>

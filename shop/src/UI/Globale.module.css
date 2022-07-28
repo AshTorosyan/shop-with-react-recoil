@@ -1,0 +1,80 @@
+.Menu {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: rgb(13, 51, 15);
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #fff;
+}
+
+.Card {
+    display: flex;
+    align-items: center;
+}
+
+.Card >  * {
+  margin: 0 8px;
+}
+
+.menu-button {
+    background-color: rgb(10, 56, 3);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 8px;
+    height: max-content;
+    transition: .2s linear;
+}
+
+.menu-button:hover {
+    background-color: rgb(4, 104, 7);
+    color: #fff;
+}
+
+.menu-button:active {
+    box-shadow: 3px 4px 3px #fff;
+}
+
+.shop-list-container {
+    padding: 10px;
+    margin-top: 11vh !important;
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    margin-left: 2%;
+    background-color: rgb(5, 83, 31);
+    margin-top: 10px;
+    align-items: center;
+    list-style-type: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.shoping-list-item {
+    border: 3px solid white;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.shoping-list-item-button {
+    background-color: rgb(10, 56, 3);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.shoping-list-item-button:hover {
+    background-color: rgb(4, 104, 7);
+    color: #fff;
+}
+
+.shoping-list-item-button:active {
+    box-shadow: 3px 4px 3px #fff;
+}
